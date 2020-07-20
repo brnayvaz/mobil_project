@@ -22,7 +22,7 @@ public class UserTableController {
     public UserTableModel insert(@RequestBody UserTableModel userTableModel) throws Exception {
        
 		UserTableModel result=iUserTableService.insert(userTableModel);
-		return result;
+		return result;//
 		
     }
 
