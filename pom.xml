@@ -72,8 +72,8 @@
 
 		<dependency>
 			<groupId>com.microsoft.sqlserver</groupId>
-			<artifactId>sqljdbc4</artifactId>
-			<version>4.0</version>
+			<artifactId>mssql-jdbc</artifactId>
+			<version>6.1.0.jre8</version>
 		</dependency>
 
 		<dependency>
@@ -99,7 +99,6 @@
 
 	<build>
 	<defaultGoal>install</defaultGoal>
-	 <sourceDirectory>src</sourceDirectory>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
